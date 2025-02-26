@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+html {
+    font-size: 1vw;
+    background-color: whitesmoke;
+}
+
+.header_img {
+    height: 30vw;
+
+    /*background-image: url("/img/cake.png");*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
+}
+
+.greeting {
+    font-family: 'Rubik Spray Paint', cursive;
+    color: orange;
+    /*font-size: 120px;*/
+    font-size: 9rem;
+}
+
+.question_header {
+    font-family: 'Rubik Spray Paint', cursive;
+    color: darkolivegreen;
+    /*font-size: 120px;*/
+    font-size: 7rem;
+}
+
+.q\&a {
+    font-family: 'Poller One', cursive;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px #9d7f7f;
+
+}
+
+.carousel {
+    width: 70%;
+}
+
+.carousel-content {
+    width: 99%;
+}
+
+.imgs-2 {
+    /*height: 99%;*/
+    width: 49.5%;
+}
+
+.imgs-6 {
+    width: 24.2%;
+}
+
+.imgs-1 {
+    width: 99%;
+}
+
+.imgs-3rd {
+    width: 27%;
+    top: 45%;
+    left: 36%;
+}
+
+.model {
+    width: 27%;
+    top: 33%;
+    left: 36%;
+    color: #09a27a;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+
+

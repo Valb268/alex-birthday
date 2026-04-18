@@ -14,7 +14,7 @@ type SlideData = {
 
 type QuestionProps = {
   id: string
-  questionNumber: number
+  title: string
   slides: SlideData[]
 }
 
@@ -41,10 +41,10 @@ function SlideImages({ images, grid }: { images: ImageData[]; grid?: boolean }) 
   )
 }
 
-export default function Question({ id, questionNumber, slides }: QuestionProps) {
+export default function Question({ id, title, slides }: QuestionProps) {
   return (
     <>
-      <div className="question_header text-center">שאלה {questionNumber}</div>
+      <div className="question_header text-center">{title}</div>
       <div className="d-flex justify-content-center">
         <div id={id} className="carousel slide border border-3 border-success mb-5" data-bs-interval="false">
           <div className="carousel-indicators">

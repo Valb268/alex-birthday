@@ -22,7 +22,7 @@ export default function Home() {
 
                 <Question
                     id="family"
-                    questionNumber={1}
+                    title="משפחה"
                     slides={[
                         {
                             images: [{src: '/img/(1) family/title-all-family.jpg', alt: 'family title'}],
@@ -32,14 +32,14 @@ export default function Home() {
                                 {src: '/img/(1) family/with-hamster.jpg', alt: 'with hamster'},
                                 {src: '/img/(1) family/the-Weasley-family.jpg', alt: 'Weasley family'},
                             ],
-                            caption: 'הם גם חברי משפחה'
+                            caption: 'הם גם חברי המשפחה'
                         },
                     ]}
                 />
 
                 <Question
                     id="favourite-animal"
-                    questionNumber={2}
+                    title="בעל החיים הכי אהוב "
                     slides={[
                         {
                             images: [
@@ -84,7 +84,7 @@ export default function Home() {
 
                 <Question
                     id="games"
-                    questionNumber={3}
+                    title="משחקים שאני אוהב"
                     slides={[
                         {
                             images: [{src: '/img/(3) games/table-games-single-image.jpg', alt: 'table games'}],
@@ -123,7 +123,7 @@ export default function Home() {
 
                 <Question
                     id="leisure"
-                    questionNumber={4}
+                    title="פעילויות פנאי אחרות"
                     slides={[
                         {
                             images: [
@@ -168,7 +168,7 @@ export default function Home() {
 
                 <Question
                     id="animals"
-                    questionNumber={5}
+                    title="מה עוד אני אוהב"
                     slides={[
                         {
                             images: [
@@ -196,7 +196,7 @@ export default function Home() {
 
                 <Question
                     id="latest-trip"
-                    questionNumber={6}
+                    title="הטיול האחרון"
                     slides={[
                         {
                             images: [{src: '/img/(6) latest-trip/title-single-image.jpg', alt: 'trip title'}],

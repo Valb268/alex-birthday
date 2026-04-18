@@ -39,33 +39,22 @@ html {
   width: 99%;
 }
 
-.imgs-2 {
-  width: 49.5%;
+.slide-images {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
 }
 
-.lego {
-  width: 66%;
+.slide-images img {
+  flex: 1 1 0;
+  min-width: 0;
 }
 
-.imgs-6 {
-  width: 24.2%;
-}
-
-.imgs-1 {
-  width: 99%;
-}
-
-.imgs-3rd {
-  width: 27%;
-  top: 45%;
-  left: 36%;
-}
-
-.model {
-  width: 27%;
-  top: 33%;
-  left: 36%;
-  color: #09a27a;
+.slide-images-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+  width: 100%;
 }
 
 .carousel-control-prev-icon {

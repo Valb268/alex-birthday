@@ -20,7 +20,7 @@ html {
 }
 
 .qa {
-  font-family: var(--font-poller-one), cursive;
+  font-family: var(--font-frank-ruhl-libre), cursive;
   font-size: 3.5rem;
   text-shadow: 2px 2px #9d7f7f;
 }
@@ -33,6 +33,7 @@ html {
 
 .carousel-item {
   background-color: gray;
+  aspect-ratio: 3 / 2;
 }
 
 .carousel-content {
@@ -41,7 +42,7 @@ html {
 
 .slide-images {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
 }
 

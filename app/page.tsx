@@ -102,6 +102,11 @@ export default function Home() {
               caption: 'משפחה טובה הופכת כל יום לחגיגה',
               captionMdOnly: true,
             },
+              {
+              images: [{ src: '/img/tiger.jpg', alt: 'tiger' }, { src: '/img/mammoth.jpg', alt: 'mammoth' }],
+              caption: '',
+              captionMdOnly: true,
+            },
           ]}
         />
 

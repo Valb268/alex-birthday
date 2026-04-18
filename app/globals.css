@@ -45,9 +45,12 @@ html {
   width: 100%;
 }
 
-.slide-images img {
+.slide-images img,
+.slide-images-grid img {
   flex: 1 1 0;
   min-width: 0;
+  width: 100%;
+  height: auto;
 }
 
 .slide-images-grid {

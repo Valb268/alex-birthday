@@ -1,3 +1,8 @@
+import Image from 'next/image'
+import { imageSize } from 'image-size'
+import { readFileSync } from 'fs'
+import path from 'path'
+
 type ImageData = { src: string; alt: string }
 
 type SlideData = {
@@ -13,12 +18,25 @@ type QuestionProps = {
   slides: SlideData[]
 }
 
+function getImageDimensions(src: string) {
+  const filePath = path.join(process.cwd(), 'public', src)
+  const { width, height } = imageSize(new Uint8Array(readFileSync(filePath)))
+  return { width: width!, height: height! }
+}
+
 function SlideImages({ images, grid }: { images: ImageData[]; grid?: boolean }) {
+  // Carousel is 70vw wide; divide by columns to get each image's display width
+  const cols = grid ? 3 : images.length
+  const sizes = `${Math.round(70 / cols)}vw`
+
   return (
     <div className={grid ? 'slide-images-grid' : 'slide-images'}>
-      {images.map(({ src, alt }) => (
-        <img key={src} src={src} className="border border-2 border-success" alt={alt} />
-      ))}
+      {images.map(({ src, alt }) => {
+        const { width, height } = getImageDimensions(src)
+        return (
+          <Image key={src} src={src} alt={alt} width={width} height={height} sizes={sizes} className="border border-2 border-success" />
+        )
+      })}
     </div>
   )
 }

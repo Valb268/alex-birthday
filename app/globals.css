@@ -1,0 +1,70 @@
+html {
+  font-size: 1vw;
+  background-color: whitesmoke;
+}
+
+.header_img {
+  border-radius: 80px;
+}
+
+.greeting {
+  font-family: var(--font-rubik-spray), cursive;
+  color: orange;
+  font-size: 9rem;
+}
+
+.question_header {
+  font-family: var(--font-rubik-spray), cursive;
+  color: darkolivegreen;
+  font-size: 7rem;
+}
+
+.qa {
+  font-family: var(--font-frank-ruhl-libre), cursive;
+  font-size: 3.5rem;
+  text-shadow: 2px 2px #9d7f7f;
+}
+
+.carousel {
+  width: 70%;
+  aspect-ratio: 3 / 2;
+  background-color: gray;
+}
+
+.carousel-item {
+  background-color: gray;
+  aspect-ratio: 3 / 2;
+}
+
+.carousel-content {
+  width: 99%;
+}
+
+.slide-images {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.slide-images img,
+.slide-images-grid img {
+  flex: 1 1 0;
+  min-width: 0;
+  width: 100%;
+  height: auto;
+}
+
+.slide-images-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+  width: 100%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}

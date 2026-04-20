@@ -130,14 +130,14 @@ export default function Home() {
                                 {src: '/img/(4)-other-leasure/Acre-boat-trip.jpg', alt: 'Acre boat trip'},
                                 {src: '/img/(4)-other-leasure/Acre-on-a-pony.jpg', alt: 'Acre pony'},
                             ],
-                            caption: 'טיולי ים ולרקב'
+                            caption: 'טיולי ים ולרכב'
                         },
                         {
                             images: [
                                 {src: '/img/(4)-other-leasure/Kratovo-at-a-fireplace.jpg', alt: 'Kratovo fireplace'},
                                 {src: '/img/(4)-other-leasure/Kratovo-in-a-hammock.jpg', alt: 'Kratovo hammock'},
                             ],
-                            caption: 'מנוחה בערסל וליד האח'
+                            caption: 'מנוחה בערסל וליד קמין'
                         },
                         {
                             images: [
